@@ -4,6 +4,7 @@ Runner.Boot = function() {};
 
 Runner.Boot.prototype = {
     preload: function() {
+        this.load.image('logo', 'assets/images/logo.png');
         this.load.image('preloadbar', 'assets/images/preloader-bar.png');
     },
     create: function() {
